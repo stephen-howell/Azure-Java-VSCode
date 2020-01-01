@@ -1,6 +1,6 @@
 # Tutorial: Developing and deploying a minimal CRUD web app on Azure with Java, Vaadin, and SQL
 
-This repro hosts a [tutorial](Tutorial.md) takes us step-by-step from:
+This repro hosts a [tutorial](Tutorial.md) that takes us step-by-step from:
 1. [Tutorial: Developing and deploying a minimal CRUD web app on Azure with Java](Tutorial.md)
    1. [Setting up our Visual Studio Code development environment (Windows 10 and Ubuntu 19 options)](SettingupVSCodeDevEnv.md)
    2. [Developing a minimal 'Hello World' Java app using Vaadin](DevelopingMinimalJavaVaadinApp.md)
