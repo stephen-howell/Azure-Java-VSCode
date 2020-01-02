@@ -32,10 +32,3 @@ Official docs: [Getting started with single databases in Azure SQL Database](htt
 15. Click `Create` and once it's finished creating everything for you `Go to resource`
 
 Next, we'll [connect to our new database with Visual Studio Code](ConnectingQueryingDB.md).
-
-
-
-
- 
-
-
