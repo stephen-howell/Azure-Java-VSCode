@@ -49,7 +49,8 @@ Search and install each of the following (or click the link).
       4. Maven for Java
       5. Java Dependency Viewer
       6. Visual Studio IntelliCode
-2. Install Azure App Service extension: 
+2. Install the `Azure Account` extension, which allows you to connect to and manage Azure from VS Code. Once installed, sign in to your Azure account?. You will have a choice of `Azure: Sign In` and `Azure: Sign In with Device Code`.  
+3. Install Azure App Service extension: 
    1. https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azureappservice
-3. Install SQL Server extension: SQL Server (mssql): 
+4. Install SQL Server extension: SQL Server (mssql): 
    1. https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql
