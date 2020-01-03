@@ -266,6 +266,7 @@ Add the following code (note, if you haven't stopped the Jetty server, every tim
     }
 ```
 Executing this on Jetty, loading `localhost:8080` and clicking the `Connect to Zoo database` should give you an output as follows: 
+
 ![](2020-01-03-22-27-13.png)
 
 **Remember**: If you no longer need the SQL Server we created - delete it - it incurs a cost even if not being used.
