@@ -91,6 +91,7 @@ You'll notice that it is quite raw - lots of looping and converting the ResultSe
 When we put data into (and pull data out of) a SQL table, it goes in and out as standard data types like *strings*, *ints* and so on. We can work with them directly but it is messy. A better way is to create a plain old Java object (a *Pojo*) to model the row of data that was returned.
 
 For instance, if a SQL statement `select id, name, age, dob from students` returned:
+
 id|name | age | dob
 ---|---|---|---
 1|Jack|16|28/11/2003
@@ -110,7 +111,7 @@ class Student
     private Date dob;
 }
 ```
-Then, we can create an array, arraylist or any collection to store all the student objects, and it is easier to work with them that way.
+Then, we can create an array, arraylist or any collection to store all the student objects, and it is easier to work with them that way. We also have to make *getters* and *setters* for each member, and VSCode will do that for you if you right click on each item.
 
 ### Steps for modelling a resultset row
 1. Identify the entities you need to model in SQL (you may be given an existing database or have the luxury of making your own)
