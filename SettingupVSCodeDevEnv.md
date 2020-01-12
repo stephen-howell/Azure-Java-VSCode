@@ -21,6 +21,9 @@ Note you may need a powerful PC or laptop to run a VM well, and it won't be as f
    1. https://chocolatey.org/docs/installation 
 7. The following how-to can be done directly on your main device or on the VM, it does not matter particularly. 
 
+### How-to: Simplify installing Windows software from a shell with Chocolately
+On Windows 10, start an **administrator** shell and install [Chocolately](https://chocolatey.org/docs/installation) and remember to close the shell once installed!
+
 ### How-to: Install Java Development Kit 8
 The Java Development Kit we are using is **Azul Zulu for Azure - Enterprise Edition JDK** https://docs.microsoft.com/en-gb/azure/java/jdk/java-jdk-install
 1. On Windows, download and run the .msi: 
