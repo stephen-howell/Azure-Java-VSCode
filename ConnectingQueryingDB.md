@@ -177,7 +177,8 @@ We need to follow these steps to connect to an Azure Database from Java:
     6. Save the POM with `CTRL + S`
        1. You may be asked to update your classpath, if this is the only project you are working on at a time, it is safe to say `Always`
     7. Right click on the Maven project `HelloAzureDatabase` in the `Maven Projects` extension and select `install`
-    8. If you navigate to `...\HelloAzureDatabase\target\HelloAzureDatabase-1.0-SNAPSHOT\WEB-INF` you will see `mssql-jdbc-8.1.1.jre13-preview.jar` was added to your project
+    8. If you navigate to `...\HelloAzureDatabase\target\HelloAzureDatabase-1.0-SNAPSHOT\WEB-INF` you might see `mssql-jdbc-8.1.1.jre13-preview.jar` was added to your project
+    9. You can run `clean` on the Maven project after changing version to 8 (from 13) and after you run install you should only have the `jre8` version of the `mssql-jdbc...jar` file
 
 ### Add the imports to Java to use JDBC
 Editing the `MainView.java` file add the following after line 1 (the `package` line) and before the other `imports`:
